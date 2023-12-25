@@ -1,0 +1,67 @@
+.icons {
+    font-size: 32px;
+    height: 32px;
+    width: 32px;
+    color: #df9c9c;
+    cursor: pointer;
+}
+.icon {
+    font-size: 32px;
+    height: 32px;
+    width: 32px;
+    color: #9cc7df;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: red;
+}
+
+.icon:hover {
+    color: rgb(22, 87, 191);
+}
+.icon-con {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #fff;
+    margin: 7px;
+}
+.icons-con {
+    
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #fff;
+    margin: 7px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 24px;
+    /* color: #002f34; */
+    font-weight: bold;
+    padding-left: 0%;
+
+}
+
+.price-text {
+    color: #002f34;
+
+}
+
+.clear-btn {
+    height: 24px;
+    background-color: #497276;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding: 0px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

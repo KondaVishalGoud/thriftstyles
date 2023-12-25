@@ -1,0 +1,111 @@
+.header {}
+
+.header-container {
+    padding: 10px 20px;
+    background-color: #002f3408;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.cat-container {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    padding: 8px 20px;
+
+}
+
+.mt-3 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.search {
+    margin-left: 20px;
+    /* align-items: center; */
+    outline: none;
+    padding-left: 10px;
+    width: 250px;
+    height: 44px;
+    border: 2px solid #778899;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.search-btn {
+    margin-right: 50px;
+    height: 44px;
+    /* background-color: #778899; */
+    color: #fff;
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+    border: none;
+    padding: 0px 15px;
+}
+
+.logout-btn {
+    height: 35px;
+    background-color: #778899;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 1px 16px;
+    margin-right: 10px;
+}
+
+.category {
+    color: rgb(6, 12, 13);
+    padding: 10px;
+    paddingleft: 50px;
+    /* cursor: pointer; */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    display: inline-block; /* Display categories in line */
+    margin-right: 70px; /* Optional: Add some spacing between categories */
+    margin-left: 80px;
+    align-items: center;
+    font-weight: bold; /* Make the text bold */
+    
+}
+
+.category:hover {
+    background-color: #778899; /* Change the background color on hover */
+    border-radius: 20px;
+}
+
+.sell-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    background-color:#fff;
+    border-radius: 15px;
+    border-color: black;
+    border-style:dashed;
+    border-width: 3px;
+   font-size: 20px;
+   font-weight: bold;
+    &:hover {
+      font-weight: bold;
+      font-style:oblique;
+      background-color: #778899;
+      color: #fff;
+
+    }
+  }
+  .chk-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+    background-color:#fff;
+    border-radius: 15px;
+    border-color: black;
+    border-style:dashed;
+    border-width: 3px;
+   font-size: 20px;
+   font-weight: bold;
+    &:hover {
+      font-weight: bold;
+      font-style:oblique;
+      background-color: #778899;
+      color: #fff;
+
+    }
+  }

@@ -1,0 +1,30 @@
+.add-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    background-size: cover;
+   
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form */
+    padding: 10px;
+    /* margin-left: 400px; */
+    /* margin-right: 400px; */
+    align-items: center;
+    border-radius: 10px;
+    width: 700px; /* Adjust the width as needed */
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
+  
+  .form-container label,
+  .form-container input,
+  .form-container select {
+    margin-bottom: 10px;
+  }
+  
+  .form-container button {
+    width: 100%;
+  }

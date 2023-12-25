@@ -1,0 +1,14 @@
+/* Footer.css */
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    /* margin-top: 100px; */
+  }
+  
+  /* Optional: Add some padding or styling to the footer */
+  footer {
+    padding: 20px 0;
+    background-color: #333; /* Adjust the background color as needed */
+  }
+  
